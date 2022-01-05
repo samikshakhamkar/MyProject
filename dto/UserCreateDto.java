@@ -9,7 +9,7 @@ import javax.persistence.Column;
 @Setter
 public class UserCreateDto {
 
-    private Integer uId;
+    private Integer userId;
 
     private String firstName;
 
