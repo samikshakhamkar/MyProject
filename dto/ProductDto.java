@@ -1,27 +1,27 @@
 package com.task.shopCart.dto;
 
-import com.task.shopCart.model.Product;
-import com.task.shopCart.model.User;
+
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.persistence.Column;
+
 @Getter
 @Setter
-public class AddCartDto {
+public class ProductDto {
 
-    private Integer id;
+    private Integer product_id;
 
-    private Product product;
+    private String name;
+
+    private double price;
+
+    private String description;
+
 
     private Integer qty;
 
-    private Double price;
-
-    private User user_id;
-
-    private  String added_date;
-
-    private String productName;
+    private String added_on;
 
 
 }
