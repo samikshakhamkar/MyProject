@@ -11,13 +11,13 @@ public class AddCartDto {
 
     private Integer id;
 
-    private Product product;
+    private Product productId;
 
     private Integer qty;
 
     private Double price;
 
-    private User user_id;
+    private User userId;
 
     private  String added_date;
 
