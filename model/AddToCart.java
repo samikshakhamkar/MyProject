@@ -22,7 +22,7 @@ public class AddToCart {
     private Product product;
     private Integer qty;
     private Double price;
-    private User user_id;
+    private User userId;
 
     @Column(updatable = false,insertable = false )
     private  String added_date;
