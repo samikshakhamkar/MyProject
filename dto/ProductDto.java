@@ -10,7 +10,7 @@ import javax.persistence.Column;
 @Setter
 public class ProductDto {
 
-    private Integer product_id;
+    private Integer productId;
 
     private String name;
 
